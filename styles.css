@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movies__item{
+    max-height: 200px;
+    max-width: 100px;
+}
+
+.movies__image{
+    width: 100%;
+}
+
+.movies__title{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
